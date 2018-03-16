@@ -3,10 +3,17 @@
     margin-bottom: 0px;
     border-radius: 0px;
     /*padding: 10px;*/
-	border: 0px solid transparent; 
-	
+  border: 0px solid transparent; 
+  
 }
-    
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form
+{
+  background-color: #355664;
+}    
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
+  background-color: #213E4A;
+}
 .row.content 
 {
   height: 450px
@@ -18,19 +25,26 @@
 }
 .sidenav 
 {
-  padding-top: 10px;
-  background-color: #555;
-  max-height: 800px;
+  padding-top: 30px;
+  background-color: #213E4A;
+  max-height: 1000px;
+}
+.sidenav h3
+{
+  color: white;
 }
 .sidenav p a
 {
-     color: white
-    /*margin: 7px;*/
-    /*margin-left: -390px;*/
-    /*margin-top: 96px;*/
-    /*padding: 0px;*/
-    /*float: left;*/
+    color: white;
+    padding: 4px 2px;
+    border-bottom: 1px dashed #fff;
 }
+.center-scroller
+{
+  font-family: arial;
+  font-size: 20px;
+}
+
 .container-fluid 
 {
     /*padding-right: 0px;*/
@@ -41,11 +55,11 @@
 
 .middle-content 
 {
-  height: 500px;	
+  height: 500px;  
 }
 .footer
 {
-   background-color: #555;
+   background-color: #213E4A;
    color: white;
    padding: 15px;
    position: absolute;
